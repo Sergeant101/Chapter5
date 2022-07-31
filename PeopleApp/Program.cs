@@ -8,7 +8,7 @@ bob.DateOfBirth = new DateTime(1965, 12, 22);
 bob.FavoriteAncientWonder = WordestOfTheAncientWorld.StatueOfZeusAtOlympia;
 bob.BucketList = WordestOfTheAncientWorld.HangingGardensOfBabylon | WordestOfTheAncientWorld.MausoleumAtHalicarnassus;
 bob.Children.Add(new Person{name = "Alfred" });
-bob.Children.Add(new Person{name = "Zoe"});
+bob.Children.Add(new Person{name = "Zoe" });
 
 WriteLine(
     format: "{0} was born on {1:dddd, d MMMM yyyy}",
@@ -29,3 +29,23 @@ foreach(Person p in bob.Children)
 {
     WriteLine(p.name);
 }
+
+
+var jonesAccount = new BankAccount();
+BankAccount.InterestRate = 0.012M;
+jonesAccount.AccountName = "Mrs. Jones";
+jonesAccount.Balance = 2400;
+
+WriteLine(format:
+    "{0} earner {1:C} interest.",
+    arg0: jonesAccount.AccountName,
+    arg1: jonesAccount.Balance * BankAccount.InterestRate);
+
+var gerrierAccount = new BankAccount();
+gerrierAccount.AccountName = "Mr. Gerrier";
+gerrierAccount.Balance = 98;
+
+WriteLine(format:
+    "{0} earnier {1:C} interest.",
+    arg0: gerrierAccount.AccountName,
+    arg1: gerrierAccount.Balance * BankAccount.InterestRate);

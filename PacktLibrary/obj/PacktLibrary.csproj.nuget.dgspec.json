@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programs\\Chapter5\\PacktLibrary\\PacktLibrary.csproj": {}
+    "C:\\_MAIN_\\Programs\\Code\\Chapter5\\PacktLibrary\\PacktLibrary.csproj": {}
   },
   "projects": {
-    "D:\\Programs\\Chapter5\\PacktLibrary\\PacktLibrary.csproj": {
+    "C:\\_MAIN_\\Programs\\Code\\Chapter5\\PacktLibrary\\PacktLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programs\\Chapter5\\PacktLibrary\\PacktLibrary.csproj",
+        "projectUniqueName": "C:\\_MAIN_\\Programs\\Code\\Chapter5\\PacktLibrary\\PacktLibrary.csproj",
         "projectName": "PacktLibrary",
-        "projectPath": "D:\\Programs\\Chapter5\\PacktLibrary\\PacktLibrary.csproj",
+        "projectPath": "C:\\_MAIN_\\Programs\\Code\\Chapter5\\PacktLibrary\\PacktLibrary.csproj",
         "packagesPath": "C:\\Users\\svzag\\.nuget\\packages\\",
-        "outputPath": "D:\\Programs\\Chapter5\\PacktLibrary\\obj\\",
+        "outputPath": "C:\\_MAIN_\\Programs\\Code\\Chapter5\\PacktLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\svzag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
