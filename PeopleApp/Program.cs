@@ -49,3 +49,5 @@ WriteLine(format:
     "{0} earnier {1:C} interest.",
     arg0: gerrierAccount.AccountName,
     arg1: gerrierAccount.Balance * BankAccount.InterestRate);
+
+WriteLine($"{bob.name } was bor on {bob.HomePlanet } ");

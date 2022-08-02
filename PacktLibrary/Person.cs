@@ -9,5 +9,6 @@ namespace Packt.Shared
         public WordestOfTheAncientWorld FavoriteAncientWonder;
         public WordestOfTheAncientWorld BucketList;
         public List<Person> Children = new List<Person>();
+        public readonly string HomePlanet = "Earth";
     }
 }
